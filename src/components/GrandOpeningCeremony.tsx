@@ -194,9 +194,8 @@ export default function GrandOpeningCeremony() {
 
           {/* Main content */}
           <div
-            className={`relative z-20 p-5 sm:p-8 lg:p-10 transition-all duration-1000 ${
-              curtainsOpen ? 'opacity-100 blur-0' : 'opacity-0 blur-md scale-[0.98]'
-            }`}
+            className={`relative z-20 p-5 sm:p-8 lg:p-10 transition-all duration-1000 ${curtainsOpen ? 'opacity-100 blur-0' : 'opacity-0 blur-md scale-[0.98]'
+              }`}
           >
             <div className="grid lg:grid-cols-2 gap-8 lg:gap-10 items-center">
               {/* Image — cinematic frame */}
@@ -246,7 +245,7 @@ export default function GrandOpeningCeremony() {
               <div className="space-y-5 sm:space-y-6">
                 <div className={curtainsOpen ? 'go-reveal-2' : ''}>
                   <p className="text-[11px] font-bold uppercase tracking-[0.35em] text-[#ff5000] mb-3">
-                    Coming Soon · Bellandur
+                    Opening Nov 15 · Bellandur
                   </p>
                   <h3 className="font-display text-[2rem] sm:text-4xl lg:text-[2.6rem] font-black text-[#2a1410] leading-[1.08] tracking-tight mb-4">
                     Dear Bellandur,
@@ -282,7 +281,7 @@ export default function GrandOpeningCeremony() {
                   ))}
                 </div>
 
-               
+
 
                 {/* Location + tagline */}
                 <div className={curtainsOpen ? 'go-reveal-4' : ''}>
@@ -305,17 +304,15 @@ export default function GrandOpeningCeremony() {
 
           {/* Curtains */}
           <div
-            className={`absolute top-[53px] bottom-0 left-0 w-1/2 z-30 theatre-curtain-fabric-left transition-all duration-[1800ms] ease-[cubic-bezier(0.77,0,0.175,1)] pointer-events-none origin-left ${
-              curtainsOpen ? '-translate-x-[92%] scale-x-[0.16] opacity-90' : 'translate-x-0 scale-x-100 opacity-100'
-            }`}
+            className={`absolute top-[53px] bottom-0 left-0 w-1/2 z-30 theatre-curtain-fabric-left transition-all duration-[1800ms] ease-[cubic-bezier(0.77,0,0.175,1)] pointer-events-none origin-left ${curtainsOpen ? '-translate-x-[92%] scale-x-[0.16] opacity-90' : 'translate-x-0 scale-x-100 opacity-100'
+              }`}
           >
             <div className="absolute bottom-0 inset-x-0 h-5 curtain-gold-fringe" />
             <div className="absolute top-0 bottom-0 right-0 w-3 curtain-gold-trim" />
           </div>
           <div
-            className={`absolute top-[53px] bottom-0 right-0 w-1/2 z-30 theatre-curtain-fabric-right transition-all duration-[1800ms] ease-[cubic-bezier(0.77,0,0.175,1)] pointer-events-none origin-right ${
-              curtainsOpen ? 'translate-x-[92%] scale-x-[0.16] opacity-90' : 'translate-x-0 scale-x-100 opacity-100'
-            }`}
+            className={`absolute top-[53px] bottom-0 right-0 w-1/2 z-30 theatre-curtain-fabric-right transition-all duration-[1800ms] ease-[cubic-bezier(0.77,0,0.175,1)] pointer-events-none origin-right ${curtainsOpen ? 'translate-x-[92%] scale-x-[0.16] opacity-90' : 'translate-x-0 scale-x-100 opacity-100'
+              }`}
           >
             <div className="absolute bottom-0 inset-x-0 h-5 curtain-gold-fringe" />
             <div className="absolute top-0 bottom-0 left-0 w-3 curtain-gold-trim" />
